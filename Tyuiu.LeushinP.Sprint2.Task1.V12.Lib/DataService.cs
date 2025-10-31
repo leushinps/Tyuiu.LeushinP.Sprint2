@@ -8,12 +8,12 @@ namespace Tyuiu.LeushinP.Sprint2.Task1.V12.Lib
         {
             bool[] res = new bool[6];
 
-            res[0] = (a > b) | (c > d);           // true | true = true
-            res[1] = (a + 2 > b) | (c > d);       // true | true = true
-            res[2] = (a > b) || (c > d);          // true || true = true
-            res[3] = (a + 2 > b) && (c < d);      // true && false = false
-            res[4] = !(res[3]);                   // !false = true
-            res[5] = (a > b) ^ (c > d);           // true ^ true = false
+            res[0] = (a > b) | (c > d);           
+            res[1] = (a + 2 > b) | (c > d);       
+            res[2] = (a > b) || (c > d);          
+            res[3] = (a + 2 > b) && (c < d);      
+            res[4] = !(res[3]);                   
+            res[5] = (a > b) ^ (c > d);           
 
             return res;
         }

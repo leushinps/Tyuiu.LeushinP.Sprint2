@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.LeushinP.Sprint2.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.LeushinP.Sprint2.Task0.V26.Lib", "Tyuiu.LeushinP.Sprint2.Task0.V26.Lib\Tyuiu.LeushinP.Sprint2.Task0.V26.Lib.csproj", "{68963CA2-2919-413E-AC91-F6469F5C22B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{E173FFB1-524D-4CE8-807F-65F35D7E3901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

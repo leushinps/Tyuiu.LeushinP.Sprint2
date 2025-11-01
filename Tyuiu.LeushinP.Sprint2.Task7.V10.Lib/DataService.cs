@@ -13,5 +13,12 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
 
             return Parabola && Line;
         }
+        public double CalculateFunction(double x)
+        {
+
+            double result = Math.Pow(x, 3) + 2 * Math.Pow(x, 2) - 3 * x + 5;
+
+            return Math.Round(result, 3);
+        }
     }
 }

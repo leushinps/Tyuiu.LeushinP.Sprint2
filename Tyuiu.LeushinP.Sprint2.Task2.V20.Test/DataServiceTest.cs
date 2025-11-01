@@ -7,7 +7,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task2.V20.Test
     public class DataServiceTest
     {
         [Test]
-        public void CheckDotInShadedArea_ValidPoint_ReturnsTrue()
+        public void CheckDotInShadedArea()
         {
             DataService ds = new DataService();
             int x = 4;

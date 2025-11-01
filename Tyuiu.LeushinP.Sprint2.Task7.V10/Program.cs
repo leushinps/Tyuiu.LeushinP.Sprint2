@@ -43,7 +43,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10
             }
             else
             {
-                Console.WriteLine("Точка НЕ находится в заштрихованной области");
+                Console.WriteLine("Точка не находится в заштрихованной области");
             }
 
             Console.WriteLine("Для завершения нажмите любую клавишу...");

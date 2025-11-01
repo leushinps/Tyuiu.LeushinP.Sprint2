@@ -7,13 +7,13 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            // Парабола
-            bool Parabola = y >= Math.Pow(x, 2) - 2;
 
-            // Прямая
-            bool Line = y <= -x;
 
-            return Parabola && Line;
+            bool AboveParabola = y >= x * x - 2;
+            bool BelowLine1 = y <= x;
+            bool AboveLine2 = y >= -x;
+
+            return AboveParabola && BelowLine1 && AboveLine2;
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task6.V2
             Console.Title = "Спринт #2 | Выполнил: Леушин П.С | Смартб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Сокращенная форма оператора switch                                *");
+            Console.WriteLine("* Тема: Получение результата на     switch                                *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Леушин Павел Сергеевич | Смартб-25-1                          *");
@@ -20,7 +20,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task6.V2
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая использует сокращенную форму записи         *");
             Console.WriteLine("* оператора switch вычисляет требуемое значение и возвращает результат.   *");
-            Console.WriteLine("* По данному месяцу, определите в какую пору года попадает этот месяц    *");
+            Console.WriteLine("* По данному месяцу, определите в какую пору года попадает этот месяц     *");
             Console.WriteLine("* (Зима, Лето, Весна, Осень).                                             *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");

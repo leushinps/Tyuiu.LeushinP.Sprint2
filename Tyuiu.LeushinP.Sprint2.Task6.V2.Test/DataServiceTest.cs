@@ -11,9 +11,9 @@ namespace Tyuiu.LeushinP.Sprint2.Task6.V2.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Çèìà", ds.FindMonthSeason(12));
-            Assert.AreEqual("Çèìà", ds.FindMonthSeason(1));
-            Assert.AreEqual("Çèìà", ds.FindMonthSeason(2));
+            Assert.AreEqual("çèìà", ds.FindMonthSeason(12));
+            Assert.AreEqual("çèìà", ds.FindMonthSeason(1));
+            Assert.AreEqual("çèìà", ds.FindMonthSeason(2));
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using System;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
 {
@@ -6,13 +7,13 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            // Порабола
-            bool aboveParabola = y >= Math.Pow(x, 2) - 2;
+            // Парабола
+            bool Parabola = y >= Math.Pow(x, 2) - 2;
 
-            //прямая
-            bool belowLine = y <= -x;
+            // Прямая
+            bool Line = y <= -x;
 
-            return aboveParabola && belowLine;
+            return Parabola && Line;
         }
     }
 }

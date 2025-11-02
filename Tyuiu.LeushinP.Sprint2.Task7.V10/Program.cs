@@ -38,15 +38,11 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10
             Console.WriteLine("***************************************************************************");
 
             if (result)
-            {
-                Console.WriteLine("Точка находится в заштрихованной области");
-            }
+                Console.WriteLine("Точка находится в заштрихованной области.");
             else
-            {
-                Console.WriteLine("Точка не находится в заштрихованной области");
-            }
+                Console.WriteLine("Точка не находится в заштрихованной области.");
 
-            Console.WriteLine("Для завершения нажмите любую клавишу...");
+            Console.WriteLine("Для завершения нажмите любую клавишу...                                    ");
             Console.ReadKey();
         }
     }

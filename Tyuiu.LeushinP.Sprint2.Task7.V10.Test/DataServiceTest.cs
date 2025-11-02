@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using Tyuiu.LeushinP.Sprint2.Task7.V10.Lib;
-
+using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Test
 {
     [TestFixture]

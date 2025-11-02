@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using Tyuiu.LeushinP.Sprint2.Task7.V10.Lib;
 
 namespace Tyuiu.LeushinP.Sprint2.Task7.V10
@@ -42,7 +42,6 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10
             else
                 Console.WriteLine("Точка не находится в заштрихованной области.");
 
-            Console.WriteLine("Для завершения нажмите любую клавишу...                                    ");
             Console.ReadKey();
         }
     }

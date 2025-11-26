@@ -8,7 +8,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && ((x > 0) && (x <= 1) && ((y > 0) && (x <= 1))))
+            if ((y >= Math.Pow(x, 2) - 2) && (x <= 2) && (x >= -2) && (y >= -2) && (y <= 2))
             {
                 res = true;
             }
@@ -17,6 +17,9 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
                 res = false;
             }
             return res;
+
+
+
         }
     }
 }

@@ -31,14 +31,14 @@ namespace Tyuiu.LeushinP.Sprint2.Task4.V12
             Console.Write("Введите значение Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
-            double result = ds.Calculate(x, y);
+            double res = ds.Calculate(x, y);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"Результат: {result}");
 
-            Console.WriteLine("Для завершения нажмите любую клавишу...");
+            Console.WriteLine(" Значение функции = " + res);
+
             Console.ReadKey();
         }
     }

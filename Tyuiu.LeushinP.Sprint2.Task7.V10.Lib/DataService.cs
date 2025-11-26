@@ -7,11 +7,16 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool aboveParabola = y >= x * x - 2;
-            bool belowLineYEqualsX = y <= x;
-            bool aboveLineYEqualsMinusX = y >= 0;
-
-            return aboveParabola && belowLineYEqualsX && aboveLineYEqualsMinusX;
+            bool res;
+            if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && ((x > 0) && (x <= 1) && ((y > 0) && (x <= 1))))
+            {
+                res = true;
+            }
+            else
+            {
+                res = false;
+            }
+            return res;
         }
     }
 }

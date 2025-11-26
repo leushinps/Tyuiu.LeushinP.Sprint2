@@ -31,13 +31,13 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10
             Console.Write("Введите координату Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
 
-            bool result = ds.CheckDotInShadedArea(x, y);
+            bool res = ds.CheckDotInShadedArea(x, y);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            if (result)
+            if (res)
                 Console.WriteLine("Точка находится в заштрихованной области.");
             else
                 Console.WriteLine("Точка не находится в заштрихованной области.");

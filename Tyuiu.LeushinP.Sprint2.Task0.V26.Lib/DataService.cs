@@ -19,3 +19,5 @@ namespace Tyuiu.LeushinP.Sprint2.Task0.V26.Lib
                 return res;
             }
         }
+    }
+}

@@ -9,7 +9,7 @@ namespace Tyuiu.LeushinP.Sprint2.Task7.V10.Lib
         {
             bool aboveParabola = y >= x * x - 2;
             bool belowLineYEqualsX = y <= x;
-            bool aboveLineYEqualsMinusX = y >= -x;
+            bool aboveLineYEqualsMinusX = y >= 0;
 
             return aboveParabola && belowLineYEqualsX && aboveLineYEqualsMinusX;
         }

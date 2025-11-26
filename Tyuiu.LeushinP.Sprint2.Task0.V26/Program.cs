@@ -50,6 +50,5 @@ namespace Tyuiu.LeushinP.Sprint2.Task0.V26
 
             Console.ReadKey();
         }
-
-        }
     }
+}
